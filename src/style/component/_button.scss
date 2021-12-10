@@ -1,0 +1,31 @@
+.big-button{
+    background-color: rgb(228, 46, 137);
+    color: white;
+    width: 100%;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    font-size: 42px;
+    border: none;
+    border-bottom: .6rem solid darken($color: rgb(228, 46, 137), $amount: 10%);
+}
+
+.big-button:disabled{
+    opacity: 0.5;
+}
+
+.button{
+    background-color: rgb(228, 46, 137);
+    border: none;
+    border-bottom: .3rem solid darken($color: rgb(228, 46, 137), $amount: 10%);
+    padding: 15px;
+    font-size: 500;
+    color: white;
+
+}
+
+.button--link{
+    background-color: transparent;
+    border: none;
+    color: #a5afd7;
+    padding: 0;
+}

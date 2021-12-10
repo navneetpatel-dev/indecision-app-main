@@ -1,0 +1,13 @@
+@import './base/base';
+@import './component/container';
+@import './component/button';
+@import './component/header';
+@import './component/model';
+@import './component/options';
+@import './component/add-option';
+
+$brand-color: rgb(228, 46, 137);
+
+*{
+    color: $brand-color;
+}
